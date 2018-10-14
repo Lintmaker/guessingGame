@@ -14,7 +14,7 @@ public class objective2<points> {
             int max = 100;
             int guess = ((min + max) / 2);
             System.out.print(guess);
-            System.out.print(" higher, lower, or correct");
+            System.out.print(" higher or lower");
             int points = 1;
             while (number != guess) {
                 response = output.nextLine();
@@ -42,7 +42,7 @@ public class objective2<points> {
                 int max = 10;
                 int guess = ((min + max) / 2);
                 System.out.print(guess);
-                System.out.print(" higher, lower, or correct");
+                System.out.print(" higher or lower");
                 int points = 1;
                 while (number != guess) {
                     response = output.nextLine();
